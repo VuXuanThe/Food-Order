@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Food order</string>
+    <string name="phone_number">Tên đăng nhập/Số điện thoại</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="Notice_EnterPassword">Nhập Mật Khẩu!</string>
+    <string name="Notice_EnterUsername">Nhập Tên Đăng Nhập Hoặc Mật Khẩu!</string>
+
+    --------------Activity Food Order---------------
+    <string name="Welcom">KhoaHA Xin Chào</string>
+    <string name="MoneyTotal">Tổng tiền</string>
+    <string name="Money">"0$"</string>
+    <string name="order">"Đặt Hàng"</string>
+    <string name="bill">Your order</string>
+</resources>

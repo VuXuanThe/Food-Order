@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food_order"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/viewCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/action_bar_food_order">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/colorTextHint"
+            android:textSize="@dimen/_15sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:layout_width="@dimen/_33sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:background="@drawable/ic_shopping_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_10sdp"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/_17sdp"
+            android:layout_height="@dimen/_17sdp"
+            android:background="@drawable/backgroud_total_food"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_8sdp">
+
+            <TextView
+                android:id="@+id/tvTotalFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/colorTextHint"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcom"
+        android:textSize="@dimen/_15sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:textColor="@color/colorTextHint"/>
+
+    <ListView
+        android:id="@+id/lvFood"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_310sdp"
+        android:background="@drawable/boder"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MoneyTotal"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/colorTextHint"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/tvTotalMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Money"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/colorTextHint"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order"
+        android:background="@drawable/boder"
+        android:layout_margin="@dimen/_5sdp"/>
+</LinearLayout>
